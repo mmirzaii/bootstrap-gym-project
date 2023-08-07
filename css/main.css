@@ -213,13 +213,13 @@ header {
   transform: translateY(-2px);
 }
 .move-from-left {
-  animation: move-from-left 2s;
+  animation: move-from-left 3s;
 }
 .move-from-right {
-  animation: move-from-right 2s;
+  animation: move-from-right 3s;
 }
 .move-from-bottom {
-  animation: move-from-bottom 2s;
+  animation: move-from-bottom 3s;
 }
 /* end membership */
 /* contact */
@@ -245,11 +245,9 @@ header {
 }
 .input:focus {
   background: transparent;
-  border: none;
-  border-radius: 0px;
   color: #eee;
   box-shadow: none;
-  border-bottom: 2px solid #f5593d;
+  border-bottom: 2px solid #f5593d !important;
 }
 .submit-button {
   background-color: #2980d9;
